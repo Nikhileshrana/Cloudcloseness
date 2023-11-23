@@ -1,4 +1,4 @@
-const webSocket = new WebSocket("ws://192.168.203.67:3000")
+const webSocket = new WebSocket("ws://https://cloudcloseness.onrender.com:3000")
 
 webSocket.onmessage = (event) => {
     handleSignallingData(JSON.parse(event.data))
