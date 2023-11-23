@@ -3,7 +3,7 @@ const http = require("http")
 
 const server = http.createServer((req, res) => { })
 
-server.listen(3000, () => {
+server.listen(10000, () => {
     console.log("Hey , Nikhilesh Server is Running Sucessfully!!!!!")
 })
 
